@@ -1,0 +1,45 @@
+img {
+  border-radius: 50%;
+  height: 60px;
+  border: 2px solid black;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+p {
+  max-width: 500px;
+  font-weight: 500;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 24px;
+}
+
+.message {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgb(164, 164, 164);
+  align-items: center;
+}
+
+.sender {
+  background-color: #395dff;
+  color: white;
+  flex-direction: row-reverse;
+  text-align: end;
+}
+
+.receiver {
+  background-color: #fafafa;
+  border-top-left-radius: 50px;
+  text-align: end;
+  flex-direction: row;
+}
+
+.messages {
+  margin: 110px 0;
+  display: flex;
+  flex-direction: column;
+}

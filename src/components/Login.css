@@ -1,0 +1,28 @@
+#login-page {
+  background-color: #606060;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#login-card {
+  position: relative;
+  margin: 0;
+  top: calc(50vh - 144px);
+  left: calc(50vw - 210px);
+  padding: 1rem;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  width: 420px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.login-button {
+  display: inline-block;
+}
